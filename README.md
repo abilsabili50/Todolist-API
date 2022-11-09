@@ -109,20 +109,19 @@ This route serves as the endpoint to get all todos.
 - Header :
   - authorization : `token`
 - Response :
-
-```json
-{
-	"status": "string",
-	"msg": "string",
-	"data": [
-		{
-			"id": "number",
-			"title": "string",
-			"status": "boolean"
-		}
-	]
-}
-```
+  ```json
+  {
+  	"status": "string",
+  	"msg": "string",
+  	"data": [
+  		{
+  			"id": "number",
+  			"title": "string",
+  			"status": "boolean"
+  		}
+  	]
+  }
+  ```
 
 ### B. Get Todo
 
@@ -133,7 +132,6 @@ This route serves as the endpoint to retrieving a todo.
 - Header :
   - authorization : `token`
 - Response :
-
   ```json
   {
   	"status": "string",
@@ -165,7 +163,6 @@ This route serves as the endpoint for creating new todos.
   ```
 
 - Response :
-
   ```json
   {
   	"status": "string",
@@ -195,7 +192,6 @@ This route serves as the endpoint for updating a todo.
   > body may contain at least 1 field between `title`, `desc`, and `status`.
 
 - Response :
-
   ```json
   {
   	"status": "string",
@@ -212,7 +208,6 @@ This route serves as the endpoint for deleting a todo.
 - Header :
   - authorization : `token`
 - Response :
-
   ```json
   {
   	"status": "string",
@@ -229,7 +224,6 @@ This route serves as the endpoint for deleting all todos.
 - Header :
   - authorization : `token`
 - Response :
-
   ```json
   {
   	"status": "string",
