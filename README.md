@@ -4,10 +4,10 @@ Todolist API is a web service for managing an activity. This APIs built using th
 
 ## Built With
 
-[expressjs](https://expressjs.com/) - Backend Framework
-[mongodb](https://www.mongodb.com/) - Database
-[mongoose](https://mongoosejs.com/) - ODM
-[jsonwebtoken](https://jwt.io/) - Auth
+[expressjs](https://expressjs.com/) - Backend Framework <br>
+[mongodb](https://www.mongodb.com/) - Database <br>
+[mongoose](https://mongoosejs.com/) - ODM <br>
+[jsonwebtoken](https://jwt.io/) - Auth <br>
 
 ## How to Use
 
