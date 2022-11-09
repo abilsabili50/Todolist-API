@@ -110,19 +110,19 @@ This route serves as the endpoint to get all todos.
   - authorization : `token`
 - Response :
 
-  ```json
-  {
-  	"status": "string",
-  	"msg": "string",
-  	"data": [
-  		{
-  			"id": "number",
-  			"title": "string",
-  			"status": "boolean"
-  		}
-  	]
-  }
-  ```
+```json
+{
+	"status": "string",
+	"msg": "string",
+	"data": [
+		{
+			"id": "number",
+			"title": "string",
+			"status": "boolean"
+		}
+	]
+}
+```
 
 ### B. Get Todo
 
@@ -139,7 +139,7 @@ This route serves as the endpoint to retrieving a todo.
   	"status": "string",
   	"msg": "string",
   	"data": {
-  		"id": number,
+  		"id": "number",
   		"title": "string",
   		"desc": "string",
   		"status": "boolean"
