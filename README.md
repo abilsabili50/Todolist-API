@@ -64,7 +64,6 @@ This route serves as the endpoint for creating new users.
   ```
 
 - Response :
-
   ```json
   {
   	"status": "string",
@@ -89,7 +88,6 @@ This route serves as the endpoint for the user to enter the application.
   ```
 
 - Response :
-
   ```json
   {
   	"status": "string",
