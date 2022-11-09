@@ -142,7 +142,7 @@ This route serves as the endpoint to retrieving a todo.
   		"id": number,
   		"title": "string",
   		"desc": "string",
-  		"status": boolean
+  		"status": "boolean"
   	}
   }
   ```
@@ -170,7 +170,7 @@ This route serves as the endpoint for creating new todos.
   {
   	"status": "string",
   	"msg": "string",
-  	"todoId": number
+  	"todoId": "number"
   }
   ```
 
@@ -188,7 +188,7 @@ This route serves as the endpoint for updating a todo.
   {
   	"title": "string",
   	"desc": "string",
-    "status": boolean
+  	"status": "boolean"
   }
   ```
 
