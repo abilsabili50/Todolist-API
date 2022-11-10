@@ -16,7 +16,9 @@ db.then(() => {
 });
 
 app.get("/", (req, res) => {
-	res.send("Hello World");
+	res.send(
+		"Hello, Abil here, see the documentation in https://github.com/abilsabili50/Todolist-API/blob/main/README.md"
+	);
 });
 
 app.use("/api", require("./app/routes"));
