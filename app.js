@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const cookieParser = require("cookie-parser");
+const path = require("path");
 require("dotenv").config();
 
 app.use(cookieParser());
@@ -16,7 +17,7 @@ db.then(() => {
 });
 
 app.get("/", (req, res) => {
-	res.sendFile("./index.html");
+	res.sendFile(path.join(__dirname + "/index.html"));
 });
 
 app.use("/api", require("./app/routes"));
